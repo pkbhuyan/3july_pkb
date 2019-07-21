@@ -1,0 +1,12 @@
+string1='Praveen'
+Str2="Kumar"
+sTr3=""" This is a paragraph.Written in the Macbook Air.
+Using the Text Editor Atom """
+
+print (string1)
+print (Str2[0:5])
+print (Str2[0:])
+print (sTr3[-1:]) # Nothing got printed but its not an error also
+print (sTr3[:-1])
+print (len(sTr3))
+print (sTr3[-50:-1])
