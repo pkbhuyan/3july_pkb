@@ -25,7 +25,11 @@ ITs not compulsory. Whether the code is runnning (may be in IDE or may be in she
 """
 
 User_Name_001 ='Praveen'
+things=''
 print(User_Name_001,type(User_Name_001),id(User_Name_001))
+print ()
 
 
 """+ sign in the atom editor needs to be inspected."""
+
+
