@@ -23,6 +23,13 @@ print("this text", (var1 + var2), "is printed using normal concatenation" ) # No
 
 print("the value of var1 is %s and value of var2 is %s " %(var1,var2)) # % is used to display a form of printing of strings and is one the operators.
 # %s is genearlly used for strings and %d is generally used for decimal indications.
+print("the value of var1 is %s and value of var2 is %s " %('990','190')) # % is used to display a form of printing of strings and is called formatting of strings
+
+print ("the escape character used for new line is \\n and the escape character used for tab is \\t ") # Use of extra \ operator for removing the actual values of Escape characters
+print (r"the escape character used for new line is [\n] and the escape character used for tab is r'[\t] ") # Use of raw string(r/R) to hide the actual values of Escape characters and display it as a normal text
+
+print(var1[4]) # prints only a single character
+
 
 
 
