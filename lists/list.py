@@ -2,6 +2,9 @@ list1=['hello','hello','this','is','a','list',420,2.5]
 list2=['a','b','c']
 list3=['x','y','z']
 
+list4 , list5 = ['mno','opq'],[190,3.789] # Another way of creating list
+print(list4+list5) # works similar to extend.
+
 # print(list1.count('hello')) # counts a particular substring inside a string
 """
 # Insert & extend & append
@@ -55,6 +58,7 @@ print(list1)
 list2.sort(reverse=True)  # used to sort the elements in the ascending order. sort(reverse) is used to sort in descending order.
 print(list2)
 
+print(list(enumerate(list1))) # enumerate displays each element of the string with its index separated by commas
 
 
 
